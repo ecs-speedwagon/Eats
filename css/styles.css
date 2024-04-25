@@ -1,0 +1,106 @@
+:root{
+    --first-color: #252B42;
+    --second-color: #FFFFFF;
+    --third-color: #F6F6F6;
+    --fourth-color: #FA4A0C;
+}
+.container{
+    max-width: 1440px; 
+    margin: 0 auto;
+}
+ul{
+    list-style-type: none;
+}
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 465px;
+    align-items: center;
+    height: 157px;
+    padding: 0;
+    margin: 0;
+}
+.header-ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    padding-inline-start: 0px;
+    align-items: center;
+    margin-right: 170px;
+}
+.header-ul-item:hover{
+    color: var(--fourth-color);
+}
+.header-ul-item{
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--first-color);
+}
+.main-container{
+    background-color: darkslateblue;
+    height: 619px;
+}
+.main-div-p{
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+      color: var(--third-color);
+      padding-top: 90px;
+      margin-top: 0;
+    margin-bottom: 0;
+}
+.main-div-h{
+    font-family: "Poppins";
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--second-color);
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top:  46px; 
+    padding-bottom: 30px;
+}
+.main-div-sp{
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--third-color);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.main-button{
+display: flex;
+justify-content: center;
+gap: 70px ;
+}
+.main-button-one{
+font-family: "Montserrat";
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.1px;
+text-align: left;
+color: var(--second-color);
+background-color: inherit;
+border: 1px solid var(--third-color);
+border-radius: 40px;
+padding: 30px 80px;
+margin-top: 73px;
+
+}
+.main-button-one:hover{
+    background-color: var(--fourth-color);
+    border: none;
+}
