@@ -41,8 +41,9 @@ ul{
     color: var(--first-color);
 }
 .main-container{
-    background-color: darkslateblue;
+    background-image:url(./Rectangle\ 48.png) ;
     height: 619px;
+
 }
 .main-div-p{
     font-family: "Montserrat";
@@ -66,8 +67,8 @@ ul{
     color: var(--second-color);
     margin-top: 0;
     margin-bottom: 0;
-    padding-top:  46px; 
-    padding-bottom: 30px;
+    padding-bottom: 2px;
+    box-sizing: content-box;
 }
 .main-div-sp{
     font-family: "Montserrat";
@@ -95,9 +96,9 @@ text-align: left;
 color: var(--second-color);
 background-color: inherit;
 border: 1px solid var(--third-color);
-border-radius: 40px;
-padding: 30px 80px;
-margin-top: 73px;
+border-radius: 33px;
+padding: 17px 73px;
+margin-top: 70px;
 
 }
 .main-button-one:hover{
